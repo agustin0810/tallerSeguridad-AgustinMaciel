@@ -36,4 +36,10 @@ Para fortalecer el aprendizaje de la materia, en el sistema presentado se realiz
   * Fuerza bruta (intruder): Esta prueba se realiza para intentar ingresar al sistema utilizando passwords distintas con un mismo usuario. El sistema no lo permite como
   se mencionaba anteriormente, permite un máximo de 6 intentos, luego se bloquea.<br>
   En este ejemplo el sistema no permite entrar con la contraseña 'Admin1234Admin' que es la correcta, porque ya existen más de 6 intentos el dia de hoy.
+
+  ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba1.png?raw=true)
   
+  * Pruebas de intercepción: También se realizaron pruebas de intercepcion entre los módulos front y back, para corroborar los parámetros y ver cómo se comunican front y backend.
+  
+  ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba2.png?raw=true)
+
