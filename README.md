@@ -45,9 +45,11 @@ Para fortalecer el aprendizaje de la materia, en el sistema presentado se realiz
 
 #### Pruebas con snyk
   * Anteriormente se realizaron pruebas en el repositorio de código para conocer si existían vulnerabilidades en la aplicación.
-  Se encontraron algunas debido al uso del módulo de python 'flask', pero con documentación fueron debidamente subsanadas.
-  Se adjunta a continuación una imagen del análisis de snyk.
+  Se encontraron algunas debido al uso del virtual env de python para el manejo de dependencias, pero al no ser mandatorias a la hora de correr la aplicación, se eliminó del repositorio para lograr evitar estas incidencias.
+  De las excepciones anteriores (imagen 1), quedaron solo algunas excepciones relacionadas con flask (imagen 2), el framework para el manejo de rest api de python, que no significan un problema grande para la aplicación.
+  Se adjuntan a continuación dos imágenes del análisis de snyk antes y después de borrado el directorio venv (virtual env de python).
   
   ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba3.png?raw=true)
+  ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba4.png?raw=true)
 
 
