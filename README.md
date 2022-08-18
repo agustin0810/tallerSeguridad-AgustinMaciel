@@ -43,3 +43,11 @@ Para fortalecer el aprendizaje de la materia, en el sistema presentado se realiz
   
   ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba2.png?raw=true)
 
+#### Pruebas con snyk
+  * Anteriormente se realizaron pruebas en el repositorio de código para conocer si existían vulnerabilidades en la aplicación.
+  Se encontraron algunas debido al uso del módulo de python 'flask', pero con documentación fueron debidamente subsanadas.
+  Se adjunta a continuación una imagen del análisis de snyk.
+  
+  ![alt text](https://github.com/agustin0810/tallerSeguridad-AgustinMaciel/blob/master/imgMD/prueba3.png?raw=true)
+
+
