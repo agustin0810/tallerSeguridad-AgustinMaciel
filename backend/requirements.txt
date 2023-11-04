@@ -3,3 +3,4 @@ bcrypt
 flask_cors
 mysql-connector-python
 sentry-sdk
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
